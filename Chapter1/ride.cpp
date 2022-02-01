@@ -36,7 +36,7 @@ int	main()
 
 	if (!inFile || !outFile)
 	{
-		cerr << "Error: Could not open the input file!" << endl;
+		cerr << "Error: Could not open the file!" << endl;
 		exit(0);
 	}
 	inFile >> cometName;
